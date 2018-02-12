@@ -11,8 +11,5 @@ get('/output') do
   @side1 = params.fetch("side1")
   @side2 = params.fetch("side2")
   @side3 = params.fetch("side3")
-  three_sides =Tri.new()
-  @three_sides = triangles
-
   erb(:output)
 end
